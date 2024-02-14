@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Meta -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Cosmos-Themes">
+	<title>Watson - Theme Documentation</title>
+
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+
+	<!-- FontAwesome JS-->
+	<script defer src="assets/fontawesome/js/all.min.js"></script>
+
+	<!-- Plugins CSS -->
+
+	<!-- Theme CSS -->
+	<link id="theme-style" rel="stylesheet" href="assets/css/theme.css">
+
+</head>
+
+<body class="docs-page">
+	<header class="header fixed-top">
+		<div class="branding docs-branding">
+			<div class="container-fluid position-relative py-2">
+				<div class="docs-logo-wrapper">
+					<button id="docs-sidebar-toggler" class="docs-sidebar-toggler docs-sidebar-visible mr-2 d-xl-none"
+						type="button">
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
+					<div class="site-logo"><a class="navbar-brand" href="index.html"><span class="logo-text">Watson<span
+									class="text-alt"> Docs</span></span></a></div>
+				</div>
+				<!--//docs-logo-wrapper-->
+				<div class="docs-top-utilities d-flex justify-content-end align-items-center">
+					<div class="top-search-box d-none d-lg-flex">
+						<form class="search-form">
+							<input type="text" placeholder="Search the docs..." name="search"
+								class="form-control search-input">
+							<button type="submit" class="btn search-btn" value="Search"><i
+									class="fas fa-search"></i></button>
+						</form>
+					</div>
+
+					<a href="https://themeforest.net/user/cosmos-themes/portfolio"
+						class="btn btn-primary d-none d-lg-flex">Contact Us</a>
+				</div>
+				<!--//docs-top-utilities-->
+			</div>
+			<!--//container-->
+		</div>
+		<!--//branding-->
+	</header>
+	<!--//header-->
+
+	<div class="docs-wrapper">
+		<div id="docs-sidebar" class="docs-sidebar">
+			<div class="top-search-box d-lg-none p-3">
+				<form class="search-form">
+					<input type="text" placeholder="Search the docs..." name="search" class="form-control search-input">
+					<button type="submit" class="btn search-btn" value="Search"><i class="fas fa-search"></i></button>
+				</form>
+			</div>
+			<nav id="docs-nav" class="docs-nav navbar">
+				<ul class="section-items list-unstyled nav flex-column pb-3">
+					<li class="nav-item section-title"><a class="nav-link scrollto active" href="#section-1"><span
+								class="theme-icon-holder mr-2"><i class="fas fa-map-signs"></i></span>Getting
+							Started</a>
+					</li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-1-0">Introduction</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-1-1">WordPress Setup</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-1-2">Server Requirements</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-1-3">What's Included?</a></li>
+
+					<li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-2"><span
+								class="theme-icon-holder mr-2"><i class="fas fa-arrow-down"></i></span>Installation</a>
+					</li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-2-1">Installing via WordPress Panel</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-2-2">Installing via FTP Upload </a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-2-3">Install plug-ins</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-2-4">Set Up Elementor</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-2-5">Importing Demo Content</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-2-6">Setting up the Primary Menu</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-2-7">Setting up the front and blog page</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-2-8">Configuring Contact Form 7 plugin</a></li>
+
+					<li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-3"><span
+								class="theme-icon-holder mr-2"><i class="fas fa-cogs"></i></span>Theme Settings</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-3-1">General Settings</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-3-2">vCard Settings</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-3-3">Color Settings</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-3-4">Portfolio Settings</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-3-5">Blog Settings</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-3-6">Typography Settings</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-3-7">Error Page Settings</a></li>
+
+					<li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-4"><span
+								class="theme-icon-holder mr-2"><i class="fas fa-edit"></i></span>Creating Content</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-4-1">Elementor Page Builder</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-4-2">Page Templates</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-4-4">Pages</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-4-5">Portfolio</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-4-6">Spacing between Elementor</a></li>
+
+					<li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-5"><span
+								class="theme-icon-holder mr-2"><i class="fas fa-book-reader"></i></span>Credits And Supports</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-5-1">Credits</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-5-2">Supports</a></li>
+				</ul>
+
+			</nav>
+			<!--//docs-nav-->
+		</div>
+		<!--//docs-sidebar-->
+		<div class="docs-content">
+			<div class="container">
+				<article class="docs-article" id="section-1">
+					<header class="docs-header" id="item-1-0">
+						<h1 class="docs-heading">Introduction <span class="docs-time">Last updated: 12-May-2021 </span>
+						</h1>
+						<section class="docs-intro">
+							<p>First of all, Thank you so much for purchasing this template and for being our customer.
+								You are awesome!</p>
+							</p>This documentation is to help you regarding each step of customization. Please go
+							through the documentation carefully to understand how this template is made and how to edit
+							this properly. </p>
+							<p> When you purchase Watson Theme from Themeforest, you need to login your account and
+								download theme files from Themeforest. Please make sure you downloaded All file &
+								Documentation option.</p>
+						</section>
+						<!--//docs-intro-->
+					</header>
+					<section class="docs-section" id="item-1-1">
+						<h2 class="section-heading">WordPress Setup</h2>
+
+						<p>To install this theme you must have a working version of WordPress already installed. If you
+							need help installing WordPress, please follow the instructions in <a
+								href="https://wordpress.org/support/article/how-to-install-wordpress/">WordPress
+								Codex</a></p>
+
+						<p>If you are a very new to WordPress world, I recommend you to check some useful resources on
+							how setup and use WordPress:</p>
+						<ul>
+							<li><a href="https://codex.wordpress.org/">WordPress Codex</a> – general information related
+								to WordPress
+								installation on your server.</li>
+							<li><a href="https://wordpress.org/support/article/first-steps-with-wordpress/">First Steps
+									with
+									WordPress</a> – a brief overview of WordPress admin panel.</li>
+							<li><a href="https://codex.wordpress.org/FAQ_New_To_WordPress">FAQ New to WordPress</a> –
+								useful “how to’s”.
+							</li>
+						</ul>
+					</section>
+					<!--//section-->
+					<section class="docs-section" id="item-1-2">
+						<h2 class="section-heading">Server Requirements</h2>
+
+						<p>To use <strong>Watson</strong> WordPress Theme your server must meet the following
+							requirements:</p>
+						<ul>
+							<li>Server must be running WordPress <code>5.X</code> or higher. It’s recommended to always
+								use the latest version of WordPress.</li>
+							<li>Server must support PHP <code>7.0</code> or higher.</li>
+							<li>Elementor plugin should be <code>2.7.3</code> or higher.</li>
+						</ul>
+						<h3 class="pt-3">
+							<svg class="svg-inline--fa fa-question-circle fa-w-16 mr-1" aria-hidden="true"
+								focusable="false" data-prefix="fas" data-icon="question-circle" role="img"
+								xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+								<path fill="currentColor"
+									d="M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zM262.655 90c-54.497 0-89.255 22.957-116.549 63.758-3.536 5.286-2.353 12.415 2.715 16.258l34.699 26.31c5.205 3.947 12.621 3.008 16.665-2.122 17.864-22.658 30.113-35.797 57.303-35.797 20.429 0 45.698 13.148 45.698 32.958 0 14.976-12.363 22.667-32.534 33.976C247.128 238.528 216 254.941 216 296v4c0 6.627 5.373 12 12 12h56c6.627 0 12-5.373 12-12v-1.333c0-28.462 83.186-29.647 83.186-106.667 0-58.002-60.165-102-116.531-102zM256 338c-25.365 0-46 20.635-46 46 0 25.364 20.635 46 46 46s46-20.636 46-46c0-25.365-20.635-46-46-46z">
+								</path>
+							</svg>
+							Recommended PHP Configuration
+						</h3>
+						<pre>
+						<code>
+	<span>memory_limit</span> <span>=</span> <span>256M</span>
+
+	<span>upload_max_filesize</span> <span>=</span> <span>32M</span>
+
+	<span>post_max_size</span> <span>=</span> <span>32M</span>
+
+	<span>max_execution_time</span> <span>=</span> <span>180</span>
+						</code>
+						</pre>
+					</section>
+					<!--//section-->
+
+					<section class="docs-section" id="item-1-3">
+						<h2 class="section-heading">What's Included?</h2>
+						<p>After you’ve made a purchase on Themeforest, you’ll need to download theme files from your
+							Themeforest Account. To do this, simply navigate to <strong>Downloads</strong> tab and find
+							purchased item <strong>Watson - Resume, CV, vCard WordPress</strong>.</p>
+						<img src="assets/images/download.jpg" alt="Download">
+						<br><br>
+						<div class="callout-block callout-block-info">
+							<div class="content">
+								<h4 class="callout-title">
+									<span class="callout-icon-holder mr-1">
+										<i class="fas fa-info-circle"></i>
+									</span>
+									<!--//icon-holder-->
+									Note
+								</h4>
+								<p>You can choose to download everything or just a WordPress theme .zip archive. The
+									difference is explained below.</p>
+							</div>
+							<!--//content-->
+						</div>
+						<!--//callout-block-->
+						<h3 class="pt-3">
+							<svg class="svg-inline--fa fa-question-circle fa-w-16 mr-1" aria-hidden="true"
+								focusable="false" data-prefix="fas" data-icon="question-circle" role="img"
+								xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+								<path fill="currentColor"
+									d="M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zM262.655 90c-54.497 0-89.255 22.957-116.549 63.758-3.536 5.286-2.353 12.415 2.715 16.258l34.699 26.31c5.205 3.947 12.621 3.008 16.665-2.122 17.864-22.658 30.113-35.797 57.303-35.797 20.429 0 45.698 13.148 45.698 32.958 0 14.976-12.363 22.667-32.534 33.976C247.128 238.528 216 254.941 216 296v4c0 6.627 5.373 12 12 12h56c6.627 0 12-5.373 12-12v-1.333c0-28.462 83.186-29.647 83.186-106.667 0-58.002-60.165-102-116.531-102zM256 338c-25.365 0-46 20.635-46 46 0 25.364 20.635 46 46 46s46-20.636 46-46c0-25.365-20.635-46-46-46z">
+								</path>
+							</svg>
+							All Files &amp; Documentation
+						</h3>
+						<p>In the package you will find:</p>
+						<p>Below is the folder structure and needs to be uploaded to your website root directory:</p>
+						<ul>
+							<li><strong>watson.zip</strong> - main theme file. You can install it through WordPress admin
+								panel. If you install it via FTP then unzip it first and use the extracted folder.</li>
+
+							<li><strong>watson-child.zip</strong> - child theme. For advanced users who are about to make
+								code changes.</li>
+
+							<li><strong>Demo Content</strong> - folder that contains all the demo data. Demo is really
+								helpful to get you familiar with all the theme features and possibilities. Setting up
+								demo data is covered in this user guide.</li>
+
+							<li><strong>Documentation</strong> - folder with the user guide.</li>
+						</ul>
+						<h3 class="pt-3">
+							<svg class="svg-inline--fa fa-question-circle fa-w-16 mr-1" aria-hidden="true"
+								focusable="false" data-prefix="fas" data-icon="question-circle" role="img"
+								xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+								<path fill="currentColor"
+									d="M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zM262.655 90c-54.497 0-89.255 22.957-116.549 63.758-3.536 5.286-2.353 12.415 2.715 16.258l34.699 26.31c5.205 3.947 12.621 3.008 16.665-2.122 17.864-22.658 30.113-35.797 57.303-35.797 20.429 0 45.698 13.148 45.698 32.958 0 14.976-12.363 22.667-32.534 33.976C247.128 238.528 216 254.941 216 296v4c0 6.627 5.373 12 12 12h56c6.627 0 12-5.373 12-12v-1.333c0-28.462 83.186-29.647 83.186-106.667 0-58.002-60.165-102-116.531-102zM256 338c-25.365 0-46 20.635-46 46 0 25.364 20.635 46 46 46s46-20.636 46-46c0-25.365-20.635-46-46-46z">
+								</path>
+							</svg>
+							Installable WordPress file only
+						</h3>
+						<p><strong>watson.zip</strong> - main theme file. You can install it through WordPress admin
+							panel. If you install it via FTP then unzip it first and use the extracted folder.</p>
+					</section>
+					<!--//section-->
+				</article>
+
+				<article class="docs-article" id="section-2">
+					<header class="docs-header">
+						<h1 class="docs-heading">Installation</h1>
+						<p>There are 2 ways on how you can install WordPress themes – using WordPress admin panel or
+							using FTP upload. The first method is probably the simplest installation method for the most
+							of users. Let’s figure it out</p>
+					</header>
+					<section class="docs-section" id="item-2-1">
+						<h2 class="section-heading">Installing via WordPress Panel</h2>
+						<p>Follow the steps below to install theme through WordPress admin panel:</p>
+						<p><b>Step 1:</b> Login your WordPress admin dashboard</p>
+						<p><b>Step 2:</b> Navigate to Appearance > Themes</p>
+						<p><b>Step 3:</b> Click on Upload Theme</p>
+						<p><b>Step 4:</b> Click on chose file, select "watson.zip" and click Install Now.</p>
+						<p><b>Step 5:</b> After upload is finished, click on Watson to Activate</p>
+					</section>
+					<!--//section-->
+
+					<section class="docs-section" id="item-2-2">
+						<h2 class="section-heading">Installing via FTP Upload </h2>
+
+						<p>If you would like to install the theme via FTP, follow the next steps:</p>
+						<p><b>Step 1:</b> Login to your hosting server via FTP client. </p>
+						<p><b>Step 2:</b> Go to the folder <u>/wp-content/themes</u></p>
+						<p><b>Step 3:</b> Upload "watson.zip" extracted content </p>
+						<p><b>Step 4:</b> Login your WordPress admin dashboard Upload Theme </p>
+						<p><b>Step 5:</b> Navigate to Appearance > Themes </p>
+						<p><b>Step 6:</b> Click on Watson to Activate </p>
+
+						<div class="callout-block callout-block-info">
+
+							<div class="content">
+								<h4 class="callout-title">
+									<span class="callout-icon-holder mr-1">
+										<i class="fas fa-info-circle"></i>
+									</span>
+									<!--//icon-holder-->
+									Note
+								</h4>
+								<p>After you install and activate Watson, you need to setup some couple of things to use
+									it best condition. Please follow these documentation.</p>
+							</div>
+							<!--//content-->
+						</div>
+						<!--//callout-block-->
+
+					</section>
+					<!--//section-->
+
+					<section class="docs-section" id="item-2-3">
+						<h2 class="section-heading">Install plug-ins</h2>
+						<p>If installation was successful, you'll see a notice about required plugins for Watson, to
+							proceed click <b>"Begin installing plugins"</b>.</p>
+						<figure class="figure docs-figure py-3">
+							<a href="assets/images/plugin-install.jpg" data-title="Plugin Install" data-toggle="lightbox"><img class="figure-img img-fluid shadow rounded" src="assets/images/plugin-install.jpg" alt="Plugin Install" style="max-width: 100%;"></a>
+						</figure>
+						<p>You'll see a list of plugins, select them all and choose <b>Install</b> and then hit
+							<b>Apply</b> button. If everything will go OK, you should see them in Plugins » Installed
+							Plugins list in wp-admin and you should activate all the new plugins.</p>
+						<figure class="figure docs-figure py-3">
+							<a href="assets/images/plugin-activate.jpg" data-title="Plugin Activate" data-toggle="lightbox"><img class="figure-img img-fluid shadow rounded" src="assets/images/plugin-activate.jpg" alt="Plugin Activate" style="max-width: 100%;"></a>
+						</figure>
+					</section>
+
+					<section class="docs-section" id="item-2-4">
+						<h2 class="section-heading">Set Up Elementor</h2>
+						<p>After you have installed plugins, you need to set up some settings in Elementor. Go to <b>Dashboard</b> » <b>Elementor</b> » <b>Settings</b> » <b>General</b> and check options like on image below:</p>
+						<figure class="figure docs-figure py-3">
+							<a href="assets/images/elementor-setup.jpg" data-title="Elementor Setup" data-toggle="lightbox"><img class="figure-img img-fluid shadow rounded" src="assets/images/elementor-setup.jpg" alt="Elementor Setup" style="max-width: 100%;"></a>
+						</figure>
+					</section>
+
+					<section class="docs-section" id="item-2-5">
+						<h2 class="section-heading">Importing Demo Content</h2>
+						<p>If you want to have the same content on your website as Live Preview of Watson theme, you'll need to import demo content.</p>
+						<p>To do that please go to <b>Appearance</b> » <b>Import Demo Data</b>. Scroll down you will see demo types. Choose which demo you want to import and click <b>Import Data</b>.</p>
+						<figure class="figure docs-figure py-3">
+							<a href="assets/images/import.jpg" data-title="Importing Content" data-toggle="lightbox"><img class="figure-img img-fluid shadow rounded" src="assets/images/import.jpg" alt="Import Content" style="max-width: 100%;"></a>
+						</figure>
+						<p>After that next page will appear choose whether or not you want to install the recommended plugin. These plugins are <b>recommended by One Click Demo Import plugin</b>. They are <b>not required for the Watson theme to work</b>. After that click <b>Continue & Import</b>. Please wait while the demo is importing.</p>
+						<figure class="figure docs-figure py-3">
+							<a href="assets/images/import2.jpg" data-title="Importing Content Next Page" data-toggle="lightbox"><img class="figure-img img-fluid shadow rounded" src="assets/images/import2.jpg" alt="Import Content" style="max-width: 100%;"></a>
+						</figure>
+						<div class="alert alert-info" role="alert">Please make sure you installed and activated <b>One Click Demo Import</b> plugin. Otherwise you can't import the demo.</div>
+						<p>After the content was succesfully imported, you need to setup the site menu. Please read more about how to setup the Primary menu below.</p>
+						<div class="callout-block callout-block-info">
+							<div class="content">
+								<h4 class="callout-title">
+									<span class="callout-icon-holder mr-1">
+										<i class="fas fa-info-circle"></i>
+									</span>
+									<!--//icon-holder-->
+									Note
+								</h4>
+								<p>Some photos included with import file may be blank since they are used only for demo and we do not have distribution rights for them.</p>
+							</div>
+							<!--//content-->
+						</div>
+						<!--//callout-block-->
+					</section>
+					<!--//section-->
+
+					<section class="docs-section" id="item-2-6">
+						<h2 class="section-heading">Setting up the Primary Menu</h2>
+						<p>Go to <b>Appearance</b> » <b>Menus</b>, and make sure you have at least a menu created and set it as <b>'Primary Menu'</b>. If you have multiple menus Watson will pick the first menu defined. If you have no menu created, go ahead and create one.</p>
+						<figure class="figure docs-figure py-3">
+							<a href="assets/images/menu-setup.jpg" data-title="Menu Setup" data-toggle="lightbox"><img class="figure-img img-fluid shadow rounded" src="assets/images/menu-setup.jpg" alt="Menu Setup" style="max-width: 100%;"></a>
+						</figure>
+					</section>
+
+					<section class="docs-section" id="item-2-7">
+						<h2 class="section-heading">Setting up the front and blog page</h2>
+						<p>Go to <b>Settings</b> » <b>Reading</b>, and select the front page you wish to have for your website.</p>
+						<figure class="figure docs-figure py-3">
+							<a href="assets/images/frontpage-setup.jpg" data-title="Front Page Setup" data-toggle="lightbox"><img class="figure-img img-fluid shadow rounded" src="assets/images/frontpage-setup.jpg" alt="Page Setup" style="max-width: 100%;"></a>
+						</figure>
+					</section>
+
+					<section class="docs-section" id="item-2-8">
+						<h2 class="section-heading">Configuring Contact Form 7 plugin</h2>
+						<p>Go to  Dashboard > Contact > Contact Forms > Add New. Name the form and paste the below in the textarea.</p>
+						<pre><code>
+&#x3C;div class=&#x22;row&#x22;&#x3E;
+    &#x3C;div class=&#x22;col-md-6 mb-50&#x22;&#x3E;
+        &#x3C;span class=&#x22;input&#x22;&#x3E;
+            [text* your-name id:cf-name class:input__field]
+            &#x3C;label class=&#x22;input__label&#x22; for=&#x22;cf-name&#x22;&#x3E;Name&#x3C;/label&#x3E;
+        &#x3C;/span&#x3E;
+    &#x3C;/div&#x3E;
+    &#x3C;div class=&#x22;col-md-6 mb-50&#x22;&#x3E;
+        &#x3C;span class=&#x22;input&#x22;&#x3E;
+            [email* your-email id:cf-email class:input__field]
+            &#x3C;label class=&#x22;input__label&#x22; for=&#x22;cf-email&#x22;&#x3E;Email&#x3C;/label&#x3E;
+        &#x3C;/span&#x3E;
+    &#x3C;/div&#x3E;
+    &#x3C;div class=&#x22;col-md-12 mb-30&#x22;&#x3E;
+        &#x3C;span class=&#x22;input&#x22;&#x3E;
+            [textarea* your-message id:cf-message class:input__field rows:5 ]
+            &#x3C;label class=&#x22;input__label&#x22; for=&#x22;cf-message&#x22;&#x3E;How can we help you?&#x3C;/label&#x3E;
+        &#x3C;/span&#x3E;
+    &#x3C;/div&#x3E;
+    &#x3C;div class=&#x22;col-md-12 text-center&#x22;&#x3E;
+        &#x3C;button type=&#x22;submit&#x22; id=&#x22;cf-submit&#x22; class=&#x22;btn-main&#x22;&#x3E;Send Message&#x3C;/button&#x3E;
+    &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;
+						</code></pre>
+						<p>Then at the top of page you'll see the shortcode, for example:</p>
+						<pre><code>[contact-form-7 id="824" title="Contact Form"]</code></pre>
+					</section>
+
+				</article>
+
+
+				<article class="docs-article" id="section-3">
+					<header class="docs-header">
+						<h1 class="docs-heading">Theme Settings</h1>
+						<section class="docs-intro">
+							<p>All the global theme options can be configured in Customizer (WordPress admin dashboard -> Appearance -> Customize -> Watson Theme Options). The options are grouped in several sections, outlined below.</p>
+						</section>
+						<!--//docs-intro-->
+					</header>
+					<section class="docs-section" id="item-3-1">
+						<h2 class="section-heading">General Settings</h2>
+						<figure class="figure docs-figure py-3">
+							<a href="assets/images/general-settings.jpg" data-title="General Settings" data-toggle="lightbox"><img class="figure-img img-fluid shadow rounded" src="assets/images/general-settings.jpg" alt="General Settings" style="max-width: 100%;"></a>
+						</figure>
+
+						<p>General settings described below:</p>
+						<ul>
+							<li><b>One Page Mode</b> - Enable or disable the settings for one page mode on the website.</li>
+							<li><b>Page Transition Animation</b> - Choose page transitions for the one page mode. You can choose between 36 animations.</li>
+							<li><b>UI Color</b> - Enable you to choose ui/layout color between dark and light.</li>
+							<li><b>Preloader</b> - Enable preloader while the page is loading.</li>
+							<li><b>Preloader Text</b> - Text which is shown in the preloader for example your name.</li>
+						</ul>
+					</section>
+					<!--//section-->
+
+					<section class="docs-section" id="item-3-2">
+						<h2 class="section-heading">vCard Settings</h2>
+						<figure class="figure docs-figure py-3">
+							<a href="assets/images/vcard-settings.jpg" data-title="vCard Settings" data-toggle="lightbox"><img class="figure-img img-fluid shadow rounded" src="assets/images/vcard-settings.jpg" alt="vCard Settings" style="max-width: 100%;"></a>
+						</figure>
+
+						<p>vCard setting described below:</p>
+						<ul>
+							<li><b>Header Title</b> - Header title of the website for example your name.</li>
+							<li><b>Header Image</b> - Header image of the website for example your image.</li>
+							<li><b>Copyright Text</b> - Any html content (usually a copyright text) displayed in the menu sidebar footer.</li>
+							<li><b>Social Icons</b> - Social icons displayed in the menu sidebar footer.</li>
+						</ul>
+					</section>
+					<!--//section-->
+
+					<section class="docs-section" id="item-3-3">
+						<h2 class="section-heading">Colors Settings</h2>
+						<figure class="figure docs-figure py-3">
+							<a href="assets/images/colors-settings.jpg" data-title="Colors Settings" data-toggle="lightbox"><img class="figure-img img-fluid shadow rounded" src="assets/images/colors-settings.jpg" alt="Colors Settings" style="max-width: 100%;"></a>
+						</figure>
+
+						<p>Colors settings described below:</p>
+						<ul>
+							<li><b>Primary Theme Color</b> - Choose primary theme accent color.</li>
+							<li><b>Custom Color</b> - Enable or disable custom color for the whole website.</li>
+							<ul>
+								<li><b>Navigation background Color</b> - Background color of the menu/navigation sidebar.</li>
+								<li><b>Navigation border Color</b> - Border color of the menu/navigation sidebar.</li>
+								<li><b>Profile Name Color</b> - Profile name color is the header title color show in menu sidebar.</li>
+								<li><b>Navigation Link Color</b> - Color of the navigation links.</li>
+								<li><b>Social Icon Color</b> - Color of the social icons show in menu sidebar.</li>
+								<li><b>Copyright Text Color</b> - Color of the copyright text shown in the menu sidebar.</li>
+								<li><b>Background Color</b> - Background color of the whole website.</li>
+								<li><b>Heading Color</b> - Heading color of the whole website.</li>
+								<li><b>Primary Color</b> - Primary color of the whole website.</li>
+							</ul>
+						</ul>
+					</section>
+					<!--//section-->
+
+					<section class="docs-section" id="item-3-4">
+						<h2 class="section-heading">Portfolio Settings</h2>
+						<figure class="figure docs-figure py-3">
+							<a href="assets/images/portfolio-settings.jpg" data-title="Portfolio Settings" data-toggle="lightbox"><img class="figure-img img-fluid shadow rounded" src="assets/images/portfolio-settings.jpg" alt="Portfolio Settings" style="max-width: 100%;"></a>
+						</figure>
+
+						<p>Portfolio settings described below:</p>
+						<ul>
+							<li><b>Custom Slug</b> - Watson's portfolio post types are using 'portfolio' slug for permalinks you can change that value in here. Note: After you change this setting maybe you need to update your permalinks once. This is done by going to <b>Settings</b> » <b>Permalinks</b> and clicking <b>Save Changes</b></li>
+							<li><b>Portfolio Single Page</b> - Enable it for displaying every portfolio item into there own page. Disabling it will show portfolio item as a lightbox popup.</li>
+							<li><b>Previous Portfolio Page Caption</b> - Caption of the button linking to the previous portfolio page.</li>
+							<li><b>Next Portfolio Page Caption</b> - Caption of the button linking to the next portfolio page.</li>
+						</ul>
+					</section>
+
+					<section class="docs-section" id="item-3-5">
+						<h2 class="section-heading">Blog Settings</h2>
+						<figure class="figure docs-figure py-3">
+							<a href="assets/images/blog-settings.jpg" data-title="Blog Settings" data-toggle="lightbox"><img class="figure-img img-fluid shadow rounded" src="assets/images/blog-settings.jpg" alt="Blog Settings" style="max-width: 100%;"></a>
+						</figure>
+
+						<p>Blog settings described below:</p>
+						<ul>
+							<li><b>Defaults Posts Page Title</b> - Title of the default blog posts page.</li>
+							<li><b>Previous Post Page Caption</b> - Caption of the bottom navigation button linking to the previous single blog post page.</li>
+							<li><b>Next Post Caption</b> - Caption of the bottom navigation button linking to the next single blog post page.</li>
+						</ul>
+					</section>
+
+					<section class="docs-section" id="item-3-6">
+						<h2 class="section-heading">Typography Settings</h2>
+						<figure class="figure docs-figure py-3">
+							<a href="assets/images/typography-settings.jpg" data-title="Typography Settings" data-toggle="lightbox"><img class="figure-img img-fluid shadow rounded" src="assets/images/typography-settings.jpg" alt="Typography Settings" style="max-width: 100%;"></a>
+						</figure>
+
+						<p>Typography settings described below:</p>
+						<ul>
+							<li><b>Custom Typography</b> - Enable or disable custom typography.</li>
+							<ul>
+								<li><b>Profile Name Font</b> - Profile name font is the header title font show in menu sidebar.</li>
+								<li><b>Heading Font</b> - Custom Font for the website headings font.</li>
+								<li><b>Primary Font</b> - Custom Font for the websites primary font.</li>
+							</ul>
+						</ul>
+					</section>
+
+					<section class="docs-section" id="item-3-7">
+						<h2 class="section-heading">Error Page Settings</h2>
+						<figure class="figure docs-figure py-3">
+							<a href="assets/images/errorpage-settings.jpg" data-title="Error Page Settings" data-toggle="lightbox"><img class="figure-img img-fluid shadow rounded" src="assets/images/errorpage-settings.jpg" alt="Error Page Settings" style="max-width: 100%;"></a>
+						</figure>
+
+						<p>Error page settings described below:</p>
+						<ul>
+							<li><b>Error Page Title</b> - The title displayed in the error (404) page.</li>
+							<li><b>Error Page Info Text</b> - Error message describing why the error occured.</li>
+							<li><b>Back Button Caption</b> - the message displayed with the 'Back to website' button.</li>
+							<li><b>Back Button URL</b> - url of the home website.</li>
+						</ul>
+					</section>
+				</article>
+				<!--//docs-article-->
+
+				<article class="docs-article" id="section-4">
+					<header class="docs-header">
+						<h1 class="docs-heading">Creating Content</h1>
+					</header>
+					<section class="docs-section" id="item-4-1">
+						<h2 class="section-heading">Elementor Page Builder</h2>
+
+						<p>Elementor is a visual page builder plugin for WordPress enabling the creation of web pages in a live, visual way. It replaces the basic WordPress editor with a live frontend editor, so you can create complex layouts visually, and design your website live, without having to switch between the editor and the preview mode. The page builder enables you to reach a top-notch quality of design without needing to use code or CSS, and without relying on developers for help. For more information, please check <a href="https://elementor.com/blog/base-theme-with-elementor/" target="_blank">this tutorial</a>.</p>
+
+						<figure class="figure docs-figure py-3">
+							<a href="assets/images/elementor-widgets.jpg" data-title="Elementor Widgets" data-toggle="lightbox"><img class="figure-img img-fluid shadow rounded" src="assets/images/elementor-widgets.jpg" alt="Elementor Widgets" style="max-width: 100%;"></a>
+						</figure>
+						<p>In Elementor Builder you will see some tabs named; </p>
+						<br>
+						<p><b>Basic - </b> Basic Elementor page building elements.</p>
+						<p><b>Pro - </b> Elementor Pro page building elements.</p>
+						<p><b>General - </b> General Elementor page building elements.</p>
+						<p><b>Site - </b> Site elements, requires pro licence for Elementor.</p>
+						<p><b>Woocommerce - </b> Woocommerce elements, requires pro licence for Elementor.</p>
+						<p><b>Watson Theme - </b> Some content elements specialized only for Watson Theme.</p>
+						<p><b>WordPress - </b> Basic WordPress shortcodes.</p>
+						<br>
+						<p>You can find more information about Elementor widgets here: <a target="_blank" href="https://elementor.com/widgets/">https://elementor.com/widgets/</a></p>
+					</section>
+					<!--//section-->
+
+					<section class="docs-section" id="item-4-2">
+						<h2 class="section-heading">Page Templates</h2>
+						<p>There are 2 types of page templates available in <b>Watson</b>:</p>
+						<ul>
+							<li><b>Default template</b> - This is the default template.</li>
+							<li><b>Full Width template</b> - As name implies this is full width template.</li>
+						</ul>
+					</section>
+
+					<section class="docs-section" id="item-4-4">
+						<!-- TODO 1. Home page adding 2. About page adding 3. Portfolio Page adding -->
+						<h2 class="section-heading">Pages</h2>
+
+						<p>Pages in <b>Watson Theme</b> is build with <b>Elementor</b> page builder. The steps of creating pages are as shown in video below:-</p>
+
+						<video style="width: 100%;" controls>
+							<source src="assets/videos/page-creation.mp4" type="video/mp4">
+							Your browser does not support HTML5 video.
+						</video>
+					</section>
+
+					<section class="docs-section" id="item-4-5">
+						<h2 class="section-heading">Portfolio</h2>
+
+						<p>Pages in <b>Watson Theme</b> is build with <b>Elementor</b> page builder. The steps of creating pages are as shown in video below:-</p>
+
+						<video style="width: 100%;" controls>
+							<source src="assets/videos/portfolio-creation.mp4" type="video/mp4">
+							Your browser does not support HTML5 video.
+						</video>
+					</section>
+
+					<section class="docs-section" id="item-4-6">
+						<h2 class="section-heading">Spacing between Elementor</h2>
+
+						<p>Spacing in Watson Theme can be done using 2 ways. Either you can use elementor spacer widget or you can use spacing classes that comes with Watson. The CSS classes are as follows:- </p>
+						<ul>
+							<li><b>mt-0, mt-5, mt-10 ... mt-100</b> - margin top of the elements row</li>
+							<li><b>mb-0, mb-5, mb-10 ... mb-100</b> - margin bottom of the elements row</li>
+							<li><b>pt-0, pt-5, pt-10 ... pt-100</b> - padding top of the elements row</li>
+							<li><b>pb-0, pb-5, pb-10 ... pb-100</b> - padding bottom of the elements row</li>
+						</ul>
+
+					</section>
+				</article>
+				<!--//docs-article-->
+
+				<article class="docs-article" id="section-5">
+					<header class="docs-header">
+						<h1 class="docs-heading">Credits And Supports</h1>
+					</header>
+
+					<section class="docs-section" id="item-5-1">
+						<h2 class="section-heading">Credits</h2>
+
+						<h3 class="pt-4">Plugins</h3>
+						<ul>
+							<li>Elementor</li>
+							<li>CMB2</li>
+							<li>Kirki Customizer Framework</li>
+							<li>Contact Form 7</li>
+							<li>One Click Demo Import</li>
+						</ul>
+
+						<h3 class="pt-4">Scripts</h3>
+						<ul>
+							<li>jQuery</li>
+							<li>Bootstrap</li>
+							<li>FontAwesome 5</li>
+							<li>Linear Icons</li>
+							<li>Owl Carousel 2</li>
+							<li>Isotope</li>
+							<li>Magnific Popup</li>
+							<li>Simple Bar</li>
+							<li>Fitty Js</li>
+							<li>Smooth Scrollbar</li>
+						</ul>
+
+						<h3 class="pt-4">Fonts</h3>
+						<p>Fonts used in watson theme are <a href="http://www.google.com/fonts/">Google Fonts</a></p>
+
+						<h3 class="pt-4">Icons</h3>
+						<p>Icons used in watson theme are <a href="https://fontawesome.com/">Font Awesome</a> and <a href="https://linearicons.com/">Linearicons</a></p>
+
+						<h3 class="pt-4">Images</h3>
+						<p>Demo images (NOT included in the package)</p>
+					</section>
+
+					<section class="docs-section" id="item-5-2">
+						<h2 class="section-heading">Support</h2>
+						<p>If you need any help or support please contact us through the ThemeForest <a href="https://themeforest.net/user/cosmos-themes" target='_blank'>https://themeforest.net/user/cosmos-themes</a></p>
+						<p>Please do not forget to rate this theme!</p>
+					</section>
+
+					<section class="docs-section" id="item-5-3">
+						<h2 class="section-heading">Thank You</h2>
+						<p>Once again, thank you so much for purchasing our theme.</p>
+					</section>
+				</article>
+				<!--//docs-article-->
+
+				<footer class="footer">
+					<div class="container text-center py-5">
+						<!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+						<small class="copyright">Designed with <i class="fas fa-heart" style="color: #fb866a;"></i> by <a class="theme-link" href="https://themeforest.net/user/cosmos-themes/portfolio" target="_blank">Cosmos-Themes</a></small>
+					</div>
+				</footer>
+			</div>
+		</div>
+	</div>
+	<!--//docs-wrapper-->
+
+
+
+	<!-- Javascript -->
+	<script src="assets/plugins/jquery-3.4.1.min.js"></script>
+	<script src="assets/plugins/popper.min.js"></script>
+	<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+
+	<!-- Page Specific JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+	<script src="assets/js/highlight-custom.js"></script>
+	<script src="assets/plugins/jquery.scrollTo.min.js"></script>
+	<script src="assets/plugins/lightbox/dist/ekko-lightbox.min.js"></script>
+	<script src="assets/js/docs.js"></script>
+
+</body>
+
+</html>
